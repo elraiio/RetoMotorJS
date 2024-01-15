@@ -1,0 +1,52 @@
+* {
+  font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+header {
+  background-color: rgb(37, 173, 37);
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  bottom: 0%;
+}
+
+#imagen-container {
+  text-align: center;
+  margin-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+#cambiarImagen {
+  display: inline-block;
+  background-color: rgb(37, 173, 37);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: filter 0.3s ease-in-out;
+}
+
+#cambiarImagen:hover {
+  filter: brightness(1.2);
+}
+
+#imagen-container:hover img {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: rgba(2, 1, 20, 0.801);
+  color: white;
+  padding: 1rem;
+  position: relative;
+  bottom: 0%;
+  width: 100%;
+}
